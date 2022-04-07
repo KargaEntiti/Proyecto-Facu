@@ -1,8 +1,6 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class playerController: MonoBehaviour
+public class playerController : MonoBehaviour
 {
     public float horizontalMove;
     public float verticalMove;
@@ -18,6 +16,9 @@ public class playerController: MonoBehaviour
     public Camera mainCamera;
     private Vector3 camForward;
     private Vector3 camRight;
+
+    [SerializeField] GameObject freeCam;
+    [SerializeField] GameObject aimCam;
 
     public bool isOnSlope = false;
     private Vector3 hitNormal;
@@ -44,7 +45,7 @@ public class playerController: MonoBehaviour
         movePlayer = playerInput.x * camRight + playerInput.z * camForward;
 
         movePlayer = movePlayer * playerSpeed;
-        
+
         player.transform.LookAt(player.transform.position + movePlayer);
 
         SetGravity();
@@ -54,6 +55,8 @@ public class playerController: MonoBehaviour
         player.Move(movePlayer * Time.deltaTime);
 
         Debug.Log(player.velocity.magnitude);
+
+        Apuntando();
     }
 
     void camDirection()
@@ -109,5 +112,20 @@ public class playerController: MonoBehaviour
     private void OnControllerColliderHit(ControllerColliderHit hit)
     {
         hitNormal = hit.normal;
+    }
+
+    void Apuntando()
+    {
+        if (Input.GetKeyDown(KeyCode.LeftControl))
+        {
+            freeCam.SetActive(false);
+            aimCam.SetActive(true);
+        }
+
+        if (Input.GetKeyUp(KeyCode.LeftControl))
+        {
+            freeCam.SetActive(true);
+            aimCam.SetActive(false);
+        }
     }
 }

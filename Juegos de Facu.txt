@@ -1,0 +1,119 @@
+juego a base de pinturas rupestres
+
+de esa epoca?
+o puede ir evolucionando
+
+evolucionar el arte?
+
+2d con profundidad
+o un 3d falso
+
+vista desde arriba (esta hecho)
+2d tradicional (3d)
+
+estilo de camara de enter the gungeon (a ver)
+
+
+un juego de cacería
+un monster hunter sin lo japo
+sin la base (la aldea)
+
+hud
+
+un sistema de hoguera (se necesita un sistema de vida para reparar)
+
+
+cacerias
+farmeo
+
+
+gameplay 
+vista isometrica (hecho)
+sistema de reinicio de mundo
+armas a mele y distancia
+(arco, ballesta, lanza, hacha, espada)
+
+sistema de loot
+
+sistema de cultivo (a ver)
+
+sistema de apuntado a punto debil (fallout3)
+
+cada enemigo tiene su punto debil
+
+ver donde es el punto debil de cada enemigo
+
+mapas chiquito
+
+domar caballo
+domesticar lobos
+
+sistema de almacenamiento de objetos (hecho)
+uso de armaduras y todo eso
+
+el personaje tenga una mochila
+
+algo rpg
+
+estadisticas(a ver)
+arma rapida
+arma fuerte
+
+sigilo
+
+npc ademas de animales
+
+lista de animales
+-bufalo
+-ciervo
+-diente de sable
+-mamut
+-tortugas
+-armadillo
+-osos
+-caballos
+-lobos
+-bisonte
+-pajaros: (3 a elegir)
+-cocodrilos
+
+pesca
+.pescados(varios)
+
+personas
+stickman con pelo 
+peinados diferentes
+tamaños dif
+
+plantas
+trigo 
+flores
+arboles
+
+biomas
+campo cerca de la aldea
+tierra muy cercana a las montañas con cuevas que pueden aparecer dientes de sable, lobos
+desertico
+zona de hielo
+
+cómo hacer que el hielo se diferencie
+
+jungla
+
+se puede elegir la raza del personaje 
+
+comunicación
+tosca
+que se lea
+
+2d con huesos
+
+cambio de camara con un boton 
+al estilo de the witcher 1 
+que tiene la camara en tercera persona y la camara cómo diablo
+
+usar el tema de agarrar objeto y empujarlos para que el personaje se suba a lugares altos
+
+apretar un boton y que se abra un inventario
+una que pause el juego 
+y otra que no

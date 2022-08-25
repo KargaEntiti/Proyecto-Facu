@@ -59,7 +59,7 @@ estadisticas(a ver)
 arma rapida
 arma fuerte
 
-sigilo
+sigilo (probando - Nico)
 
 npc ademas de animales
 
